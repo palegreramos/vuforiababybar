@@ -100,14 +100,8 @@ InitTestScene*.unity*
 
 # --- VUFORIA ---
 # Archivos grandes generados por Vuforia (migration packages)
-/migration/
-/migration/*.tgz
+Assets/Editor/Migration/
+Assets/Editor/Migration/*.tgz
 
-# Por si acaso hay paquetes locales de Vuforia
+# Paquetes locales/exportados de Vuforia
 com.ptc.vuforia.engine-*.tgz
-
-# Cachés relacionadas con paquetes
-*.tgz
-
-# (opcional) si usas importaciones manuales antiguas
-*.unitypackage
