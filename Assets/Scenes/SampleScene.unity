@@ -346,7 +346,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
+        m_CallState: 1
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
@@ -361,7 +361,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &95314698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6635,6 +6635,8 @@ GameObject:
   - component: {fileID: 1295948485}
   - component: {fileID: 1295948484}
   - component: {fileID: 1295948483}
+  - component: {fileID: 1295948490}
+  - component: {fileID: 1295948489}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -6786,6 +6788,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1295948489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295948482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f381110ffe8c068469ac5d148ef5abf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1295948490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295948482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3766121ebfc954547aeeb4af5eb72222, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1616333331
 GameObject:
   m_ObjectHideFlags: 0
@@ -7461,7 +7487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StatusFilter: 1
-  UsePoseSmoothing: 0
+  UsePoseSmoothing: 1
   AnimationCurve:
     serializedVersion: 2
     m_Curve:
